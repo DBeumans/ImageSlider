@@ -3,7 +3,8 @@ using System.Collections;
 
 public class ImageSlider : MonoBehaviour
 {
-    public Texture2D[] slides;
+    [SerializeField]
+    Texture2D[] slides;
     //public float changeTime = 1.0f;
     private int currentSlide = 0;
     //private float timeSinceLast = 1.0f;
